@@ -948,17 +948,20 @@
 				);
 				LastSwiftMigration = 0800;
 				LastSwiftUpdateCheck = 0700;
-				LastUpgradeCheck = 0800;
+				LastUpgradeCheck = 0830;
 				ORGANIZATIONNAME = "Apple, Inc.";
 				TargetAttributes = {
 					0A38ABAF1B73013F00AE9C43 = {
 						CreatedOnToolsVersion = 7.0;
+						DevelopmentTeam = CBL87RUJF5;
 					};
 					16A8FC981A7062CC006FC06F = {
 						CreatedOnToolsVersion = 6.2;
+						DevelopmentTeam = CBL87RUJF5;
 					};
 					3EDA0CD01A89744100506454 = {
 						CreatedOnToolsVersion = 6.3;
+						DevelopmentTeam = CBL87RUJF5;
 					};
 				};
 			};
@@ -1383,12 +1386,12 @@
 				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "iPhone Developer";
 				COMBINE_HIDPI_IMAGES = YES;
 				DEBUG_INFORMATION_FORMAT = dwarf;
-				DEVELOPMENT_TEAM = "";
+				DEVELOPMENT_TEAM = CBL87RUJF5;
 				GCC_NO_COMMON_BLOCKS = YES;
 				INFOPLIST_FILE = "DemoBots (tvOS)/Info.plist";
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				ON_DEMAND_RESOURCES_INITIAL_INSTALL_TAGS = "Blue GroundBot Level1";
-				PRODUCT_BUNDLE_IDENTIFIER = "com.example.apple-samplecode.DemoBots";
+				PRODUCT_BUNDLE_IDENTIFIER = com.jl.DemoBots;
 				PRODUCT_MODULE_NAME = DemoBots;
 				PRODUCT_NAME = DemoBots;
 				SDKROOT = appletvos;
@@ -1405,12 +1408,12 @@
 				ASSETCATALOG_COMPILER_LAUNCHIMAGE_NAME = "tvOS LaunchImage";
 				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "iPhone Developer";
 				COMBINE_HIDPI_IMAGES = YES;
-				DEVELOPMENT_TEAM = "";
+				DEVELOPMENT_TEAM = CBL87RUJF5;
 				GCC_NO_COMMON_BLOCKS = YES;
 				INFOPLIST_FILE = "DemoBots (tvOS)/Info.plist";
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				ON_DEMAND_RESOURCES_INITIAL_INSTALL_TAGS = "Blue GroundBot Level1";
-				PRODUCT_BUNDLE_IDENTIFIER = "com.example.apple-samplecode.DemoBots";
+				PRODUCT_BUNDLE_IDENTIFIER = com.jl.DemoBots;
 				PRODUCT_MODULE_NAME = DemoBots;
 				PRODUCT_NAME = DemoBots;
 				SDKROOT = appletvos;
@@ -1435,8 +1438,10 @@
 				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
 				CLANG_WARN_EMPTY_BODY = YES;
 				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
 				CLANG_WARN_INT_CONVERSION = YES;
 				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
 				CLANG_WARN_UNREACHABLE_CODE = YES;
 				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
 				CODE_SIGN_IDENTITY = "-";
@@ -1445,6 +1450,7 @@
 				ENABLE_TESTABILITY = YES;
 				GCC_C_LANGUAGE_STANDARD = gnu99;
 				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
 				GCC_OPTIMIZATION_LEVEL = 0;
 				GCC_PREPROCESSOR_DEFINITIONS = (
 					"DEBUG=1",
@@ -1482,8 +1488,10 @@
 				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
 				CLANG_WARN_EMPTY_BODY = YES;
 				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
 				CLANG_WARN_INT_CONVERSION = YES;
 				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
 				CLANG_WARN_UNREACHABLE_CODE = YES;
 				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
 				CODE_SIGN_IDENTITY = "-";
@@ -1492,6 +1500,7 @@
 				ENABLE_NS_ASSERTIONS = NO;
 				ENABLE_STRICT_OBJC_MSGSEND = YES;
 				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
 				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
 				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
 				GCC_WARN_UNDECLARED_SELECTOR = YES;
@@ -1503,6 +1512,7 @@
 				MTL_ENABLE_DEBUG_INFO = NO;
 				PRODUCT_NAME = DemoBots;
 				SDKROOT = macosx;
+				SWIFT_OPTIMIZATION_LEVEL = "-Owholemodule";
 			};
 			name = Release;
 		};
@@ -1513,7 +1523,7 @@
 				CLANG_ENABLE_MODULES = YES;
 				CODE_SIGN_IDENTITY = "Mac Developer";
 				COMBINE_HIDPI_IMAGES = YES;
-				DEVELOPMENT_TEAM = "";
+				DEVELOPMENT_TEAM = CBL87RUJF5;
 				FRAMEWORK_SEARCH_PATHS = (
 					"$(BUILD_DIR)",
 					"$(inherited)",
@@ -1537,7 +1547,7 @@
 				CLANG_ENABLE_MODULES = YES;
 				CODE_SIGN_IDENTITY = "Mac Developer";
 				COMBINE_HIDPI_IMAGES = YES;
-				DEVELOPMENT_TEAM = "";
+				DEVELOPMENT_TEAM = CBL87RUJF5;
 				FRAMEWORK_SEARCH_PATHS = (
 					"$(BUILD_DIR)",
 					"$(inherited)",
@@ -1560,6 +1570,7 @@
 				CODE_SIGN_IDENTITY = "iPhone Developer";
 				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
 				DEBUG_INFORMATION_FORMAT = dwarf;
+				DEVELOPMENT_TEAM = CBL87RUJF5;
 				ENABLE_ON_DEMAND_RESOURCES = YES;
 				FRAMEWORK_SEARCH_PATHS = (
 					"$(BUILD_DIR)",
@@ -1569,7 +1580,7 @@
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				ON_DEMAND_RESOURCES_INITIAL_INSTALL_TAGS = "Blue GroundBot Level1";
 				OTHER_SWIFT_FLAGS = "-D DEBUG";
-				PRODUCT_BUNDLE_IDENTIFIER = "com.example.apple-samplecode.$(PRODUCT_NAME:rfc1034identifier)";
+				PRODUCT_BUNDLE_IDENTIFIER = com.jl.DemoBots;
 				PRODUCT_MODULE_NAME = DemoBots;
 				PROVISIONING_PROFILE = "";
 				PROVISIONING_PROFILE_SPECIFIER = "";
@@ -1588,6 +1599,7 @@
 				CLANG_ENABLE_MODULES = YES;
 				CODE_SIGN_IDENTITY = "iPhone Developer";
 				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				DEVELOPMENT_TEAM = CBL87RUJF5;
 				ENABLE_ON_DEMAND_RESOURCES = YES;
 				FRAMEWORK_SEARCH_PATHS = (
 					"$(BUILD_DIR)",
@@ -1596,7 +1608,7 @@
 				INFOPLIST_FILE = "DemoBots (iOS)/Info.plist";
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				ON_DEMAND_RESOURCES_INITIAL_INSTALL_TAGS = "Blue GroundBot Level1";
-				PRODUCT_BUNDLE_IDENTIFIER = "com.example.apple-samplecode.$(PRODUCT_NAME:rfc1034identifier)";
+				PRODUCT_BUNDLE_IDENTIFIER = com.jl.DemoBots;
 				PRODUCT_MODULE_NAME = DemoBots;
 				PROVISIONING_PROFILE = "";
 				PROVISIONING_PROFILE_SPECIFIER = "";
