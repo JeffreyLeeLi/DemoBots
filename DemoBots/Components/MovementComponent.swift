@@ -270,7 +270,7 @@ class MovementComponent: GKComponent {
         // Forward: (dx: 1.0, dy: 0.0), Backward: (dx: -1.0, dy: 0.0)
         if relativeDisplacement.x < 0 {
             // The entity is moving backwards, add 180 degrees to the angle
-            angleRelativeToOrientation += Float(M_PI)
+            angleRelativeToOrientation += Float(Double.pi)
         }
         
         // Calculate the components of a new vector with direction based off the `angleRelativeToOrientation`.

@@ -15,7 +15,7 @@ struct GameplayConfiguration {
         static let arcLength: CGFloat = 300.0
         
         /// The arc angle (in radians) within which the beam is effective.
-        static let arcAngle = CGFloat(45.0 * (M_PI / 180.0))
+        static let arcAngle = CGFloat(45.0 * (Double.pi / 180.0))
         
         /// The maximum arc angle (in radians) after being adjusted for distance from target.
         static let maxArcAngle = CGFloat(0.35)
@@ -35,7 +35,7 @@ struct GameplayConfiguration {
         static let movementSpeed: CGFloat = 210.0
 
         /// The angular rotation speed (in radians per second) for the `PlayerBot`.
-        static let angularSpeed = CGFloat(M_PI) * 1.4
+        static let angularSpeed = CGFloat(Double.pi) * 1.4
         
         /// The radius of the `PlayerBot`'s physics body.
         static var physicsBodyRadius: CGFloat = 30.0
