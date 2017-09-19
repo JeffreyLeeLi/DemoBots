@@ -1532,7 +1532,7 @@
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/../Frameworks";
 				ON_DEMAND_RESOURCES_INITIAL_INSTALL_TAGS = "Blue FlyingBot Green GroundBot Level1 Level2 Level3";
 				OTHER_SWIFT_FLAGS = "-D DEBUG";
-				PRODUCT_BUNDLE_IDENTIFIER = "com.example.apple-samplecode.$(PRODUCT_NAME:rfc1034identifier)";
+				PRODUCT_BUNDLE_IDENTIFIER = com.jl.DemoBots;
 				PRODUCT_MODULE_NAME = DemoBots;
 				SWIFT_OBJC_BRIDGING_HEADER = "";
 				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
@@ -1555,7 +1555,7 @@
 				INFOPLIST_FILE = "$(SRCROOT)/DemoBots (OS X)/Info.plist";
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/../Frameworks";
 				ON_DEMAND_RESOURCES_INITIAL_INSTALL_TAGS = "Blue FlyingBot Green GroundBot Level1 Level2 Level3";
-				PRODUCT_BUNDLE_IDENTIFIER = "com.example.apple-samplecode.$(PRODUCT_NAME:rfc1034identifier)";
+				PRODUCT_BUNDLE_IDENTIFIER = com.jl.DemoBots;
 				PRODUCT_MODULE_NAME = DemoBots;
 				SWIFT_OBJC_BRIDGING_HEADER = "";
 				SWIFT_VERSION = 3.0;
